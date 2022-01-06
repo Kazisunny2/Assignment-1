@@ -14,12 +14,13 @@ h1{
     border-image: linear-gradient(rgb(214, 19, 19));
     border-image-slice: 1;
 }
-section{
+.flexible-container{
     display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .half-width{
-    width: 80%;
-    padding-left: 2%;
+    width: 50%;
 }
 .half-width img{
     width: 50%;
@@ -31,5 +32,46 @@ section{
     color: white;
     border-radius: 5px;
     font-weight: 400;
+}
+footer h1{
+    text-align: center;
+}
+div h2{
+    font-display: inline;
+}
+#middle{
+    text-align: center;
+    padding-left: 50px;
+}
+.Middle{
+    text-align: center;
+} 
+#number{
+    width: 40px 40px;
+    font-weight: 400;
+}
+#number img{
+    width: 50%;
+}
+#number-1{
+    width: 50%;
+    background-color: rgb(179, 187, 187);
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 30px;
 
+}
+#number-2{
+    width: 50%;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgb(228, 184, 184);
+    border-radius: 30px;
+}
+#number-3{
+    width: 50%;
+    margin-right: 20px;
+    background-color:rgb(194, 248, 113);
+    padding: 10px;
+    border-radius: 30px;
 }
