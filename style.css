@@ -18,6 +18,7 @@ h1{
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 20px;
 }
 .half-width{
     width: 50%;
