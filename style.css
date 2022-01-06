@@ -77,3 +77,8 @@ h1{
 .font{
     font-size: 70px;
 }
+#Global-Community{
+    display: flex;
+    padding-left: 15%;
+    font-size: 20px;
+}
